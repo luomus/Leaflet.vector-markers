@@ -52,7 +52,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -81,15 +81,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	_leaflet2.default.VectorMarkers = _VectorMarkers3.default;
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_1__;
 
-/***/ },
+/***/ }),
 /* 2 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -113,9 +113,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	};
 
-/***/ },
+/***/ }),
 /* 3 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -150,7 +150,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	  extraDivClasses: '',
 	  icon: 'home',
 	  markerColor: 'blue',
-	  opacity: 1,
 	  iconColor: 'white',
 	  viewBox: '0 0 32 52'
 	};
@@ -177,7 +176,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var options = this.options;
 	      var pin_path = options.map_pin || mapPin;
 
-	      div.innerHTML = '<svg width="' + options.iconSize[0] + 'px" height="' + options.iconSize[1] + 'px" viewBox="' + options.viewBox + '" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="' + pin_path + '" fill="' + options.markerColor + '" opacity="' + options.opacity + '"></path></svg>';
+	      div.innerHTML = '<svg width="' + options.iconSize[0] + 'px" height="' + options.iconSize[1] + 'px" viewBox="' + options.viewBox + '" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="' + pin_path + '" fill="' + options.markerColor + '"></path></svg>';
 
 	      if (options.icon) {
 	        div.appendChild(this._createInner());
@@ -257,7 +256,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = Icon;
 
-/***/ }
+/***/ })
 /******/ ])
 });
 ;
