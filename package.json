@@ -5,7 +5,7 @@
   "main": "dist/leaflet-vector-markers.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hiasinho/Leaflet.vector-markers.git"
+    "url": "https://github.com/luomus/Leaflet.vector-markers.git"
   },
   "scripts": {
     "clean:lib": "rimraf lib",
@@ -64,9 +64,9 @@
     "url": "http://www.opensource.org/licenses/mit-license.php"
   },
   "bugs": {
-    "url": "https://github.com/hiasinho/Leaflet.vector-markers/issues"
+    "url": "https://github.com/luomus/Leaflet.vector-markers/issues"
   },
-  "homepage": "https://github.com/hiasinho/Leaflet.vector-markers",
+  "homepage": "https://github.com/luomus/Leaflet.vector-markers",
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
     "unmockedModulePathPatterns": [
