@@ -1,11 +1,11 @@
 {
-  "name": "Leaflet.vector-markers",
+  "name": "@luomus/leaflet.vector-markers",
   "version": "0.0.6",
   "description": "Vector SVG markers for Leaflet, with an option for Font Awesome/Twitter Bootstrap icons.",
   "main": "dist/leaflet-vector-markers.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/luomus/Leaflet.vector-markers.git"
+    "url": "git+https://github.com/luomus/Leaflet.vector-markers.git"
   },
   "scripts": {
     "clean:lib": "rimraf lib",
@@ -59,10 +59,7 @@
     "Icon"
   ],
   "author": "Mathias Maisberger <mathias@hiasinho.com>",
-  "licenses": {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/mit-license.php"
-  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/luomus/Leaflet.vector-markers/issues"
   },
