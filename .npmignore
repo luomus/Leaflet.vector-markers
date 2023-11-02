@@ -1,4 +1,5 @@
 __tests__
+__mocks__
 coverage
 examples
 .editorconfig
@@ -6,3 +7,4 @@ examples
 .travis.yml
 bower.json
 webpack.config.js
+src
